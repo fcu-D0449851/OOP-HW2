@@ -5,9 +5,11 @@ public class StringComparator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         String a,b;
-        int result;
+        int result=1;
         Scanner scan = new Scanner(System.in);
         
+        while(result!=0)
+        {	
         System.out.println("Enter a string 1:");
         a = scan.next();
         System.out.println("Enter a string 2:");
@@ -18,6 +20,7 @@ public class StringComparator {
         System.out.println("The two strings are the same.");
         else
         System.out.println("The two strings are not the same.");	
-	}
+        }
+       }
 
 }
